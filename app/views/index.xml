@@ -1,0 +1,17 @@
+<Alloy>
+	<Collection src="player" instance="true" id="players" />
+	<Window class="container" id="win">
+		<Label id="heading">Here it is</Label>
+		<ListView id="playerList" defaultItemTemplate="template">
+			<Templates>
+				<ItemTemplate name="template">
+					<Label id="heading">This is a heading</Label>
+					<Label id="playerName" bindId="playerName"></Label>
+				</ItemTemplate>
+			</Templates>
+			<ListSection dataCollection="$.players">
+				<ListItem playerName:text="{name}" id:text="{id}" template="default"></ListItem>
+			</ListSection>
+		</ListView>
+	</Window>
+</Alloy>

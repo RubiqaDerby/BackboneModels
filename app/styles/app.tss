@@ -1,0 +1,11 @@
+"Window": {
+	backgroundColor: '#fff',
+}
+
+".container": {
+	top: 50,
+	left: 10,
+	right: 10,
+	bottom: 10,
+	layout: "vertical",
+}

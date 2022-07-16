@@ -1,0 +1,40 @@
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#playerList": {
+	borderColor: "#000",
+	top: 50,
+	left: 10,
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	separatorColor: "transparent",
+	separatorStyle: Ti.UI.TABLE_VIEW_SEPARATOR_STYLE_NONE,
+	allowsSelection: true,
+	backgroundColor: "#d1d1d1",
+}
+
+"ListItem": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	borderColor: "#cc0000",
+	top: 5,
+	left: 5,	
+	selectionStyle: Ti.UI.SELECTION_STYLE_NONE,
+	backgroundSelectedColor: "#d1d1d1",
+}
+
+"#heading": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.SIZE,
+	borderColor: "#000",
+	top: 10,
+	left: 10,
+}
+
+"ItemTemplate": {
+	backgroundColor: "#d1d1d1",
+	backgroundSelectedColor: "#d1d1d1",
+}
